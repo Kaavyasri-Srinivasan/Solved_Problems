@@ -1,6 +1,4 @@
-# Solved_Problems
+# Solved Problem using C++
 
-
-# Solving Problems using C++
-      #Problem statement is : Write a function which compress string AAACCCBBD to A3C3B2D
+# Problem statement is : Write a function which compress string AAACCCBBD to A3C3B2D
       
