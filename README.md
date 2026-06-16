@@ -26,4 +26,16 @@
                 cdd,efi
                 be,ij
 
+     .5. Given an array fo intervals where intervals[i]=[starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals              that cover all the intervals in the input.
+            Eg: [[1,4],[4,5]]
+            o.p: [1,5]
 
+            Eg: 2  Intervals=[[1.3],[2.6],[8,10],[15,18]]
+            output: [[1,6],[8,10],[15,18]]
+
+      .6. Round 3:
+            To design a Super-Market Building Application,’It should have the following functionalities
+	        1. Shop owner must be able to view all the bills in the specific time(from date, to date)
+	        2. View a bill given a bill id
+	        3. Item wise bills and revenue for specific time(eg. Last month)
+	        4. Customer wise bills.
