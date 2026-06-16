@@ -18,6 +18,12 @@
        15 14  12 9 5
 
 
+    .4.  Given two strings of same length, find all mismathced substrings
+                s1: abbcddeefcceacbbed
+                s2: abbefieefceeacbijd
 
+                output: 
+                cdd,efi
+                be,ij
 
 
