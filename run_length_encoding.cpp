@@ -10,7 +10,7 @@ int main(){
 	int j;
 	int k=0;
 	int count=1;
-	int char_count[10];
+	int char_count[100];
 	while(i<len){
 		j=i;
 		while(j<len-1 && string[j]==string[j+1]){
@@ -31,7 +31,15 @@ int main(){
 	j=0;
 	while(i<len){
 	    count=char_count[j++];
-	    cout<<string[i]<<count;
-	    i=i+count;
+	    if(count!=1){
+	        cout<<string[i]<<count;
+	        i=i+count;
+	    }
+	    else{
+	        cout<<string[i];
+	        i=i+count;
+	        
+	    }
+	    
 	}
 }
